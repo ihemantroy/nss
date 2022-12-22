@@ -11,20 +11,113 @@
 
 .e2
 {
-  padding-top: 3rem;
+  /* padding-top: 3rem;
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 1rem;
   max-height: 100vh;
-  width: 100%;
+  width: 100%; */
   line-height: 1.5;
-  
+
 }
 .nav-item
 {
   padding: 0 18px;
 }
+
 .nav-link
 {
   font-size: 2rem;
+}
+img{
+	max-width: 100%;
+
+}
+.gallery{
+	background-color: #dbddf1;
+	/* padding: 80px 0; */
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+#g2
+{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+#g1
+{
+  padding-top: 5%;
+}
+#g3
+{
+  padding-top: 5%;
+}
+.data1
+{
+  padding-left: 100px;
+  margin-top: 20px;
+  margin-right: auto;
+}
+
+
+.btn {
+  background: #E0144C;
+  background-image: -webkit-linear-gradient(top, #E0144C, #E0144C);
+  background-image: -moz-linear-gradient(top, #E0144C, #E0144C);
+  background-image: -ms-linear-gradient(top, #E0144C, #E0144C);
+  background-image: -o-linear-gradient(top, #E0144C, #E0144C);
+  background-image: linear-gradient(to bottom, #E0144C, #E0144C);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9A1663;
+  background-image: -webkit-linear-gradient(top, #9A1663, #9A1663);
+  background-image: -moz-linear-gradient(top, #9A1663, #9A1663);
+  background-image: -ms-linear-gradient(top, #9A1663, #9A1663);
+  background-image: -o-linear-gradient(top, #9A1663, #9A1663);
+  background-image: linear-gradient(to bottom, #9A1663, #9A1663);
+  text-decoration: none;
+}
+
+#footer
+{
+
+  padding: 0 15% 0 15%;
+
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #D6E4E5;
+
+}
+.icon
+{
+  margin: 20px 10px;
+}
+#last
+{
+  font-size: 70%;
+}
+#designedby
+{
+  font-size: 60%;
 }
